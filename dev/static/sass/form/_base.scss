@@ -1,0 +1,103 @@
+
+// _base.scss
+// GLOBALS
+
+$primary-color  : #E5544C;
+$white          : #fff;
+
+// ====
+
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  // background: #E86962;
+  // background: rgba($primary-color, 0.6);
+
+  // color: $white;
+  font-family: 'proxima-nova', Proxima Nova, $helvetica;
+  font-style: normal;
+  font-weight: 400;
+
+  color: #FFF;
+
+  position: relative;
+  z-index: 0;
+
+  a {
+    text-decoration: none;
+    color: #444;
+    &:hover {
+      color: #D7585A;
+    }
+  }
+}
+
+// .container {
+  // padding-top: $typecsset-magic-number * 2;
+  // padding: $typecsset-magic-number;
+// }
+
+h1, %h1 {
+  // font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  // font-size: em(46);
+  @include typecsset-font-size(46px);
+}
+
+h2, %h2 {
+  // font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  @include typecsset-font-size(24px);
+  line-height: 125%;
+
+}
+
+p, %p {
+  // font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 400;
+  @include typecsset-font-size(16px);
+}
+
+%button {
+  padding: ($typecsset-magic-number * 0.5)  ($typecsset-magic-number * 2);
+  background: #59C8E0;
+  box-shadow: 0 3px 6px -6px black;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: em(22);
+  font-style: normal;
+  font-weight: 700;
+
+  @include transition(all 300ms ease);
+
+  &:hover {
+    background-color: #7fd1e5;
+  }
+}
+
+%logo-v {
+  background: center no-repeat;
+  background-image: url('../img/remotely-logo-vertical.svg');
+  background-size: contain;
+}
+
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}

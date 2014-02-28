@@ -1,0 +1,6 @@
+@function neat-columns($span: $columns of $container-columns, $display: block) {
+  $columns: nth($span, 1);
+  $container-columns: container-span($span);
+
+  @return flex-grid($columns, $container-columns)
+}

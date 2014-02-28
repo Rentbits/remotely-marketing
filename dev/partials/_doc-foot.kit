@@ -1,0 +1,36 @@
+<!-- _doc-footer.kit -->
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+  <script src="static/js/plugins.min.js"></script>
+  <script src="static/js/main.min.js"></script>
+  <script src="http://rb.test.rentbits.com/rb/site/assets/js/validate.jquery.js"></script>
+  <script>
+  $(document).ready(function() {
+
+    $('#learn-more-form').on('click', 'input.submit', function() {
+      var $thisForm = $('form.learn-more-form');
+      var isValid   = $thisForm.validate();
+
+      if (isValid) {
+        $.post("remotely/contactRequest", $thisForm.serialize(), function(response) {
+          // TODO...
+          $thisForm[0].reset();
+
+          var target = $('.call-to-action');
+          $('.thank-you-message').addClass('show');
+          $('#to-be-hidden').css('opacity', '0');
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 300);
+
+        });
+      }
+      return false;
+    });
+
+  });
+  </script>
+</body>
+</html>
