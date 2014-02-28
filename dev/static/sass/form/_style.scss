@@ -15,7 +15,7 @@
   background-color: $cell-bg;
 
   .inner {
-    @include outer-container
+    @include outer-container;
   }
 
   .heading {
@@ -170,6 +170,43 @@
   }
 
 }
+.app-badges {
+  // display: none;
+  // height: 34px;
+  @include outer-container();
+}
+
+%app-badge {
+  @include span-columns(1.5);
+  opacity: 0.5;
+  background: transparent left center no-repeat;
+  background-size: contain;
+  // height: 100%;
+  height: 34px;
+  // display: inline-block;
+
+  span {
+    display: block;
+    color: transparent;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+}
+
+.app-badge-ios {
+  @extend %app-badge;
+  // @include span-columns(1.5);
+  @include shift(1);
+  background-image: url('../img/app-badge-ios.png');
+}
+.app-badge-android {
+  @extend %app-badge;
+  // @include span-columns(1.5);
+  background-image: url('../img/app-badge-android.png');
+
+}
 
 
 .section-hero {
@@ -208,9 +245,9 @@
   p {
     @include typecsset-font-size(16px);
   }
-  a {
+  // a {
     // @include row;
-  }
+  // }
   .button {
     @extend %button;
     @include span-columns(3);
@@ -218,29 +255,6 @@
   }
   .inner {
     position: relative;
-  }
-  .app-store-badge {
-    img {
-      display: block;
-      margin: auto;
-    }
-    display: block;
-    // @include span-columns(1);
-    // width: 90%;
-    position: absolute;
-    margin: auto;
-    bottom: 0;
-    right: 0;
-    // left: 0;
-    @include media($tablet-landscape) {
-      // left: 0;
-      margin-right: 10%;
-    }
-    @include media($tablet-portrait) {
-      left: 0;
-      margin: 0 auto;
-      // margin: 0;
-    }
   }
 }
 
@@ -626,10 +640,20 @@
     position: relative;
     overflow: hidden;
 
-    .app-store-badge {
-      display: block;
-      margin-top: ($typecsset-magic-number * 1);
-      margin-bottom: ($typecsset-magic-number * 2);
+    .app-badge-ios {
+      margin: ($typecsset-magic-number * .5) 0;
+      // @extend %app-badge;
+      @include span-columns(1 of 3);
+      @include shift(0);
+      // @include omega;
+      // background-image: url('../img/app-badge-ios.png');
+    }
+    .app-badge-android {
+      margin: ($typecsset-magic-number * .5) 0;
+      // @extend %app-badge;
+      @include span-columns(1 of 3);
+      // background-image: url('../img/app-badge-android.png');
+
     }
   }
 
@@ -783,6 +807,7 @@ form small.error {
 @include media($tablet-landscape) {
   // @include figure-circle(2, 12);
   // @include span-columns(2);
+
   .section-three {
     h1 {
       @include shift(1);
@@ -807,6 +832,10 @@ form small.error {
 }
 
 @include media($tablet-portrait) {
+  .app-badge-ios,
+  .app-badge-android {
+    @include span-columns(2);
+  }
 
   .section-hero {
     background-position: 90% bottom;
@@ -817,6 +846,7 @@ form small.error {
     .button {
       @include span-columns(4);
       @include shift(1);
+      @include typecsset-font-size(16px);
     }
   }
   .section-one {
@@ -840,6 +870,15 @@ form small.error {
 }
 
 @include media($mobile) {
+  .app-badge-ios {
+    @include shift(1.5);
+  }
+  .app-badge-ios,
+  .app-badge-android {
+    background-position: center;
+    // @include omega();
+    @include span-columns(1.5 of 4);
+  }
   .section {
     h1 {
       @include typecsset-font-size(24px);
@@ -871,6 +910,7 @@ form small.error {
       // @include shift(.5);
     }
   }
+
   .section {
     .list-alpha {
       @include span-columns(10 of 12);
@@ -891,9 +931,7 @@ form small.error {
       text-align: center;
     }
   }
-  // .showcase {
-    // display: none;
-  // }
+
   .call-to-action {
     .copy {
       @include span-columns(10 of 12);

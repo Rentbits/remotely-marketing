@@ -18,6 +18,26 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/static\/img\/app-badge-android.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7867,
+		"inputAbbreviatedPath": "\/build\/static\/img\/app-badge-android.png",
+		"outputAbbreviatedPath": "\/build\/static\/img\/app-badge-android.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/static\/img\/app-badge-ios.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6641,
+		"inputAbbreviatedPath": "\/build\/static\/img\/app-badge-ios.png",
+		"outputAbbreviatedPath": "\/build\/static\/img\/app-badge-ios.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/static\/img\/hand-iphone5.png": {
 		"fileType": 32768,
 		"ignore": 0,
