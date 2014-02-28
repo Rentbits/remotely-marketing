@@ -1664,20 +1664,20 @@ p {
 /* line 781, ../../../dev/static/sass/form/_style.scss */
 .footer {
   background: #CDCCCC; }
-  /* line 783, ../../../dev/static/sass/form/_style.scss */
+  /* line 784, ../../../dev/static/sass/form/_style.scss */
   .footer ul {
     list-style-type: none;
     margin: 0;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
-    padding: 2.3576516% 0; }
+    padding: 2.3576516%; }
     /* line 15, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
     .footer ul:after {
       content: "";
       display: table;
       clear: both; }
-  /* line 790, ../../../dev/static/sass/form/_style.scss */
+  /* line 792, ../../../dev/static/sass/form/_style.scss */
   .footer li {
     float: left;
     padding: 0 2.3576516% 0 0;
@@ -1685,8 +1685,38 @@ p {
     font-size: 14px;
     font-size: 0.875rem;
     line-height: 1.7142857; }
+  /* line 801, ../../../dev/static/sass/form/_style.scss */
+  .footer .fb-icn {
+    padding: 0;
+    display: block;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    float: right; }
+    /* line 809, ../../../dev/static/sass/form/_style.scss */
+    .footer .fb-icn a {
+      opacity: .75;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: transparent center no-repeat;
+      background-image: url("../img/fb-icon.svg");
+      -webkit-background-size: contain;
+      background-size: contain;
+      overflow: hidden;
+      -webkit-transition: opacity 600ms ease;
+      transition: opacity 600ms ease; }
+      /* line 4, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_hide-text.scss */
+      .footer .fb-icn a:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 100%; }
+      /* line 821, ../../../dev/static/sass/form/_style.scss */
+      .footer .fb-icn a:hover {
+        opacity: 1.0; }
 
-/* line 800, ../../../dev/static/sass/form/_style.scss */
+/* line 828, ../../../dev/static/sass/form/_style.scss */
 form small.error {
   display: block;
   color: #E85347;
@@ -1696,15 +1726,15 @@ form small.error {
   line-height: 2; }
 
 @media screen and (max-width: 1200px) {
-  /* line 812, ../../../dev/static/sass/form/_style.scss */
+  /* line 840, ../../../dev/static/sass/form/_style.scss */
   .section-three h1 {
     margin-left: 8.5298043%; }
 
-  /* line 817, ../../../dev/static/sass/form/_style.scss */
+  /* line 845, ../../../dev/static/sass/form/_style.scss */
   .section-four h1, .section-four h2 {
     margin-left: 8.5298043%; }
 
-  /* line 822, ../../../dev/static/sass/form/_style.scss */
+  /* line 850, ../../../dev/static/sass/form/_style.scss */
   .showcase .showcase-list {
     float: left;
     display: block;
@@ -1715,11 +1745,11 @@ form small.error {
     .showcase .showcase-list:last-child {
       margin-right: 0; }
 
-  /* line 828, ../../../dev/static/sass/form/_style.scss */
+  /* line 856, ../../../dev/static/sass/form/_style.scss */
   .footer ul {
     margin-left: 8.5298043%; } }
 @media screen and (max-width: 768px) {
-  /* line 835, ../../../dev/static/sass/form/_style.scss */
+  /* line 863, ../../../dev/static/sass/form/_style.scss */
   .app-badge-ios,
   .app-badge-android {
     float: left;
@@ -1731,12 +1761,12 @@ form small.error {
     .app-badge-android:last-child {
       margin-right: 0; }
 
-  /* line 840, ../../../dev/static/sass/form/_style.scss */
+  /* line 868, ../../../dev/static/sass/form/_style.scss */
   .section-hero {
     background-position: 90% bottom;
     -webkit-background-size: auto 80%;
     background-size: auto 80%; }
-    /* line 843, ../../../dev/static/sass/form/_style.scss */
+    /* line 871, ../../../dev/static/sass/form/_style.scss */
     .section-hero hgroup {
       float: left;
       display: block;
@@ -1745,7 +1775,7 @@ form small.error {
       /* line 40, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       .section-hero hgroup:last-child {
         margin-right: 0; }
-    /* line 846, ../../../dev/static/sass/form/_style.scss */
+    /* line 874, ../../../dev/static/sass/form/_style.scss */
     .section-hero .button {
       float: left;
       display: block;
@@ -1759,13 +1789,13 @@ form small.error {
       .section-hero .button:last-child {
         margin-right: 0; }
 
-  /* line 853, ../../../dev/static/sass/form/_style.scss */
+  /* line 881, ../../../dev/static/sass/form/_style.scss */
   .section-one .figure-circle {
     display: none; }
-  /* line 856, ../../../dev/static/sass/form/_style.scss */
+  /* line 884, ../../../dev/static/sass/form/_style.scss */
   .section-one h1 {
     margin-left: 8.5298043%; }
-  /* line 859, ../../../dev/static/sass/form/_style.scss */
+  /* line 887, ../../../dev/static/sass/form/_style.scss */
   .section-one h2 {
     float: left;
     display: block;
@@ -1776,15 +1806,15 @@ form small.error {
     .section-one h2:last-child {
       margin-right: 0; }
 
-  /* line 865, ../../../dev/static/sass/form/_style.scss */
+  /* line 893, ../../../dev/static/sass/form/_style.scss */
   .section-two .figure-circle {
     display: none; } }
 @media screen and (max-width: 480px) {
-  /* line 873, ../../../dev/static/sass/form/_style.scss */
+  /* line 901, ../../../dev/static/sass/form/_style.scss */
   .app-badge-ios {
     margin-left: 12.7947064%; }
 
-  /* line 876, ../../../dev/static/sass/form/_style.scss */
+  /* line 904, ../../../dev/static/sass/form/_style.scss */
   .app-badge-ios,
   .app-badge-android {
     background-position: center;
@@ -1797,7 +1827,7 @@ form small.error {
     .app-badge-android:last-child {
       margin-right: 0; }
 
-  /* line 883, ../../../dev/static/sass/form/_style.scss */
+  /* line 911, ../../../dev/static/sass/form/_style.scss */
   .section h1 {
     font-size: 24px;
     font-size: 1.5rem;
@@ -1809,21 +1839,21 @@ form small.error {
     /* line 40, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
     .section h1:last-child {
       margin-right: 0; }
-  /* line 887, ../../../dev/static/sass/form/_style.scss */
+  /* line 915, ../../../dev/static/sass/form/_style.scss */
   .section h2 {
     font-size: 18px;
     font-size: 1.125rem;
     line-height: 1.3333333; }
 
-  /* line 891, ../../../dev/static/sass/form/_style.scss */
+  /* line 919, ../../../dev/static/sass/form/_style.scss */
   .logo {
     width: 100%;
     margin-right: 0; }
 
-  /* line 895, ../../../dev/static/sass/form/_style.scss */
+  /* line 923, ../../../dev/static/sass/form/_style.scss */
   .section-hero {
     background-image: none; }
-    /* line 897, ../../../dev/static/sass/form/_style.scss */
+    /* line 925, ../../../dev/static/sass/form/_style.scss */
     .section-hero hgroup {
       float: left;
       display: block;
@@ -1833,10 +1863,10 @@ form small.error {
       /* line 40, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
       .section-hero hgroup:last-child {
         margin-right: 0; }
-    /* line 904, ../../../dev/static/sass/form/_style.scss */
+    /* line 932, ../../../dev/static/sass/form/_style.scss */
     .section-hero h2 {
       margin-bottom: 48px; }
-    /* line 907, ../../../dev/static/sass/form/_style.scss */
+    /* line 935, ../../../dev/static/sass/form/_style.scss */
     .section-hero .button {
       float: left;
       display: block;
@@ -1846,7 +1876,7 @@ form small.error {
       .section-hero .button:last-child {
         margin-right: 0; }
 
-  /* line 915, ../../../dev/static/sass/form/_style.scss */
+  /* line 943, ../../../dev/static/sass/form/_style.scss */
   .section .list-alpha {
     float: left;
     display: block;
@@ -1908,10 +1938,10 @@ form small.error {
         /* line 40, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
         .section .list-alpha li p:last-child {
           margin-right: 0; }
-    /* line 918, ../../../dev/static/sass/form/_style.scss */
+    /* line 946, ../../../dev/static/sass/form/_style.scss */
     .section .list-alpha li p {
       margin-top: 0; }
-  /* line 922, ../../../dev/static/sass/form/_style.scss */
+  /* line 950, ../../../dev/static/sass/form/_style.scss */
   .section .list-beta {
     float: left;
     display: block;
@@ -1973,17 +2003,17 @@ form small.error {
         /* line 40, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
         .section .list-beta li p:last-child {
           margin-right: 0; }
-    /* line 925, ../../../dev/static/sass/form/_style.scss */
+    /* line 953, ../../../dev/static/sass/form/_style.scss */
     .section .list-beta li p {
       margin-top: 0; }
-  /* line 929, ../../../dev/static/sass/form/_style.scss */
+  /* line 957, ../../../dev/static/sass/form/_style.scss */
   .section .thank-you-message h2 {
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 1.2;
     text-align: center; }
 
-  /* line 936, ../../../dev/static/sass/form/_style.scss */
+  /* line 964, ../../../dev/static/sass/form/_style.scss */
   .call-to-action .copy {
     float: left;
     display: block;
@@ -1992,10 +2022,10 @@ form small.error {
     /* line 40, ../../../../../../../../../../Applications/CodeKit 2.app/Contents/Resources/engines/neat/grid/_span-columns.scss */
     .call-to-action .copy:last-child {
       margin-right: 0; }
-    /* line 938, ../../../dev/static/sass/form/_style.scss */
+    /* line 966, ../../../dev/static/sass/form/_style.scss */
     .call-to-action .copy p {
       width: 100%; }
-  /* line 942, ../../../dev/static/sass/form/_style.scss */
+  /* line 970, ../../../dev/static/sass/form/_style.scss */
   .call-to-action .form-wrapper {
     float: left;
     display: block;
@@ -2005,13 +2035,13 @@ form small.error {
     .call-to-action .form-wrapper:last-child {
       margin-right: 0; } }
 @media screen and (min-width: 1024px) {
-  /* line 948, ../../../dev/static/sass/form/_style.scss */
+  /* line 976, ../../../dev/static/sass/form/_style.scss */
   .showcase-small {
     height: 0;
     overflow: hidden;
     opacity: 0; }
 
-  /* line 953, ../../../dev/static/sass/form/_style.scss */
+  /* line 981, ../../../dev/static/sass/form/_style.scss */
   .showcase {
     height: auto;
     overflow: visible;

@@ -780,13 +780,15 @@
 
 .footer {
   background: #CDCCCC;
+
   ul {
     // padding: 0;
     list-style-type: none;
     margin: 0;
     @include outer-container;
-    @include pad(default 0)
+    @include pad(default)
   }
+
   li {
     float: left;
     @include pad(0 default 0 0 );
@@ -794,6 +796,32 @@
     // background: red;
     color: #444;
     @include typecsset-font-size(14px);
+  }
+
+  .fb-icn {
+    padding: 0;
+    display: block;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    float: right;
+
+    a {
+      opacity: .75;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: transparent center no-repeat;
+      background-image: url('../img/fb-icon.svg');
+      background-size: contain;
+      @include hide-text();
+
+      transition: opacity 600ms ease ;
+
+      &:hover {
+        opacity: 1.0;
+      }
+    }
   }
 }
 

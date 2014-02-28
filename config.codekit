@@ -174,7 +174,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/index.kit",
 		"outputAbbreviatedPath": "\/build\/index.html",
-		"outputPathIsSetByUser": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/404.html": {
 		"fileType": 8192,
