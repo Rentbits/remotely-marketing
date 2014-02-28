@@ -13,8 +13,7 @@
 .section {
   $cell-bg: #ccc;
   background-color: $cell-bg;
-  // margin: 1px 0;
-  // height: 400px;
+
   .inner {
     @include outer-container
   }
