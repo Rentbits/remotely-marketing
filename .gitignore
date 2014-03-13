@@ -39,10 +39,10 @@ Thumbs.db
 ###
 
 *.sass-cache-c
+*.scssc
 
 **/.sass-cache
+**/.sass-cache/*
+
 **/.codekit-cache
-
-*.scssc
-
-*.scssc
+**/.codekit-cache/*
