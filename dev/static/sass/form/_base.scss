@@ -37,10 +37,9 @@ body {
   }
 }
 
-// .container {
-  // padding-top: $typecsset-magic-number * 2;
-  // padding: $typecsset-magic-number;
-// }
+.container {
+  padding-top: $typecsset-magic-number * 4;
+}
 
 h1, %h1 {
   // font-family: 'proxima-nova';

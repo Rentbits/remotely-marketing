@@ -10,6 +10,13 @@
 
     $.extend(verge);
 
+    // grab an element
+    var myElement = document.querySelector("nav");
+    // construct an instance of Headroom, passing the element
+    var headroom  = new Headroom(myElement);
+    // initialise
+    headroom.init();
+
     var $window = $(window);
     var list = $('#showcase-list').children('li');
     var activeListItem = list.first();
