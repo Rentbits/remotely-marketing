@@ -453,6 +453,16 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/dev\/static\/js\/lib\/jQuery.headroom.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/static\/js\/lib\/jQuery.headroom.js",
+		"outputAbbreviatedPath": "\/build\/static\/js\/jQuery.headroom.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/dev\/static\/js\/lib\/swipe.js": {
 		"fileType": 64,
 		"ignore": 1,
