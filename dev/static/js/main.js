@@ -12,7 +12,10 @@
   $.extend(verge);
 
   // init headroom
-  $('#nav').headroom();
+  $('#nav').headroom({
+    'tolerance': 0,
+    "offset": 0
+  });
 
   var $window = $(window);
   var list = $('#showcase-list').children('li');

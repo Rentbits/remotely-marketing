@@ -61,10 +61,17 @@
   right: 0;
   z-index: 9999;
 
+  -webkit-transform: translateZ(0);
+
   @include transition(top 400ms ease);
 }
 
+.headroom--pinned {
+  // position: fixed;
+  top: 0;
+}
 
-.headroom--pinned {top: 0;}
-
-.headroom--unpinned {top: -50px;}
+.headroom--unpinned {
+  // position: fixed;
+  top: -50px;
+}
