@@ -118,16 +118,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/build\/static\/js\/plugins.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/static\/js\/plugins.min.js",
-		"outputAbbreviatedPath": "\/build\/static\/js\/plugins.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/build\/static\/js\/vendor\/jquery-1.10.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -615,7 +605,7 @@
 		},
 	"\/dev\/static\/sass\/main.scss": {
 		"createSourceMap": 0,
-		"debugStyle": 1,
+		"debugStyle": 0,
 		"decimalPrecision": 7,
 		"fileType": 4,
 		"ignore": 0,
@@ -623,7 +613,7 @@
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/main.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/main.css",
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
