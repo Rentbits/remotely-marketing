@@ -5,37 +5,25 @@
   position: relative;
   overflow: hidden;
 
-  // display: none;
   background: rgba(white, 0.96);
-  // background: rgba($primary-color, 0.98);
-  // border-bottom: 1px solid tint($primary-color, 10%);
 
   >ul {
-    // @include outer-container;
-
-    // display: block;
-    padding: 0;
+    padding: 0 4%;
     margin: 0;
     height: 100%;
-    // color: #FFF;
   }
 
   li {
-    @include span-columns(2);
-    // display: block;
+    // @include span-columns(2);
+
     height: 100%;
     float: right;
     text-align: center;
-    // background: #000;
 
     padding-top: 7px;
   }
 
   a {
-
-    // display: block;
-    // height: 100%;
-    // width: 100%;
     padding: 4px 1px;
 
     text-transform: uppercase;
@@ -47,7 +35,6 @@
 
     &:hover {
       color: $primary-color;
-      // background: tint($primary-color, 10%);
       border-bottom: 1px solid $primary-color;
     }
   }
@@ -67,11 +54,9 @@
 }
 
 .headroom--pinned {
-  // position: fixed;
   top: 0;
 }
 
 .headroom--unpinned {
-  // position: fixed;
   top: -50px;
 }
