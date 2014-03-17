@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16828",
+"creatorBuild": "16844",
 "files": {
 	"\/build\/index.html": {
 		"fileType": 8192,
@@ -157,6 +157,14 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/build\/terms.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/terms.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/index.kit": {
 		"fileType": 2048,
@@ -391,6 +399,25 @@
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/README.html",
 		"outputPathIsSetByUser": 0
 		},
+	"\/dev\/lib\/tos.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/lib\/tos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/dev\/lib\/tos.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/lib\/tos.md",
+		"outputAbbreviatedPath": "\/dev\/lib\/tos.html",
+		"outputPathIsSetByUser": 0
+		},
 	"\/dev\/partials\/_doc-foot.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -558,6 +585,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/dev\/static\/sass\/form\/_tos.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 1,
+		"decimalPrecision": 7,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/static\/sass\/form\/_tos.scss",
+		"outputAbbreviatedPath": "\/build\/static\/css\/_tos.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/dev\/static\/sass\/lib\/_functions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 1,
@@ -617,6 +659,14 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/dev\/terms.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dev\/terms.kit",
+		"outputAbbreviatedPath": "\/build\/terms.html",
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

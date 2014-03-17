@@ -1,0 +1,46 @@
+.terms-and-conditions {
+  background: #E9E9EA;
+  color: #000;
+  min-height: 100%;
+
+  padding: ($typecsset-magic-number * 2) 0;
+
+  .inner {
+    background: #FFF;
+  }
+
+  .header {
+    height: ($typecsset-magic-number * 3);
+    background: $primary-color;
+
+    svg {
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: 20px;
+
+      width: 200px;
+    }
+    svg path {
+      fill: #FFF;
+    }
+  }
+
+  .text-body {
+    @include pad();
+    margin: auto;
+    max-width: 90%;
+
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+
+  li>ol {
+    list-style-type: lower-alpha;
+    // color: red;
+  }
+
+}

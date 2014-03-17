@@ -3,7 +3,7 @@
 @import 'nav';
 
 .section {
-  $cell-bg: #ccc;
+  $cell-bg: #FFF;
   background-color: $cell-bg;
 
   .inner {
@@ -16,10 +16,6 @@
 
     padding: ($typecsset-magic-number * 1) 0;
   }
-
-  // hgroup {
-  //   margin-top: ($typecsset-magic-number * 4);
-  // }
 
   h1 {
     @extend %h1;
@@ -37,17 +33,7 @@
     }
   }
 
-  h2 {
-    // @include typecsset-font-size(22px);
-    // font-weight: normal;
-  }
-
 }
-
-// .section .inner {
-//   // background: teal;
-//   @include outer-container;
-// }
 
 
 @mixin value-prop-list($total-width, $x-up, $beta: false) {
@@ -977,3 +963,5 @@ form small.error {
   }
 
 }
+
+@import 'tos';
