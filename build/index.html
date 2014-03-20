@@ -360,8 +360,7 @@
       var isValid   = $thisForm.validate();
 
       if (isValid) {
-        $.post("remotely/contactRequest", $thisForm.serialize(), function(response) {
-          // TODO...
+        $.post("contactRequest", $thisForm.serialize(), function(response) {
           $thisForm[0].reset();
 
           var target = $('.call-to-action');
