@@ -641,11 +641,13 @@
 
     h3 {
       color: #E6544C;
-      margin-top: ($typecsset-magic-number * 1);
+      // margin-top: ($typecsset-magic-number * 1);
     }
     h4 {
       color: #666;
-      font-weight: 400;
+      font-size: em(17px);
+      line-height: 150%;
+      // font-weight: 600;
     }
     p {
       @include span-columns(4 of 5);
@@ -657,6 +659,14 @@
   .form-wrapper {
     @include span-columns(4);
     @include shift(1);
+
+    h4 {
+      color: #666;
+      font-size: em(20px);
+      line-height: 150%;
+      text-transform: uppercase;
+      margin-top: em(8);
+    }
   }
   .learn-more-form {
     text-transform: uppercase;
@@ -686,6 +696,7 @@
       margin-bottom: ($typecsset-magic-number * 0);
       @include typecsset-font-size(13px);
     }
+    button,
     .submit {
       border: 1px solid #59C8E0;
       @extend %button;
