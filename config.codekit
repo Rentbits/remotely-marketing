@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16844",
+"creatorBuild": "17018",
 "files": {
 	"\/build\/index.html": {
 		"fileType": 8192,
@@ -8,6 +8,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/static\/css\/main.css": {
@@ -16,6 +17,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/static\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/static\/img\/app-badge-android.png": {
@@ -25,6 +27,7 @@
 		"initialSize": 7867,
 		"inputAbbreviatedPath": "\/build\/static\/img\/app-badge-android.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/app-badge-android.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -35,6 +38,7 @@
 		"initialSize": 6641,
 		"inputAbbreviatedPath": "\/build\/static\/img\/app-badge-ios.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/app-badge-ios.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -45,6 +49,7 @@
 		"initialSize": 463735,
 		"inputAbbreviatedPath": "\/build\/static\/img\/hand-iphone5.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/HandwithiPhone5.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -55,6 +60,7 @@
 		"initialSize": 51403,
 		"inputAbbreviatedPath": "\/build\/static\/img\/prop-mgr-img.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/prop-mgr-img.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -65,6 +71,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/static\/img\/screen-automation.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/2-5-create-automation-trigger-landing-r2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -75,6 +82,7 @@
 		"initialSize": 76484,
 		"inputAbbreviatedPath": "\/build\/static\/img\/screen-cost-savings.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/remotely-thermo-detail-r2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -85,6 +93,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/static\/img\/screen-keyless-entry.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/remotely-iPhone-lock-detail-r2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -95,6 +104,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/static\/img\/screen-protect-assets.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/remotely-moisture-sensor-r2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -105,6 +115,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/static\/img\/screen-switch-list.png",
 		"outputAbbreviatedPath": "\/build\/static\/img\/2-3-switch-list-r2.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -114,6 +125,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/static\/js\/main.min.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/main.min.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -124,6 +136,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/static\/js\/vendor\/jquery-1.10.2.min.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/jquery-1.10.2.min.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -134,6 +147,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/static\/js\/vendor\/modernizr-2.7.1.min.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/modernizr-2.7.1.min.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -144,6 +158,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/static\/js\/vendor\/respond.min.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/respond.min.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -154,6 +169,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/static\/js\/vendor\/SVGMagic.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/SVGMagic.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -164,6 +180,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/terms.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/index.kit": {
@@ -172,6 +189,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/index.kit",
 		"outputAbbreviatedPath": "\/build\/index.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/404.html": {
@@ -180,6 +198,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/404.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png": {
@@ -189,6 +208,7 @@
 		"initialSize": 1226,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -201,6 +221,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/CHANGELOG.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/CONTRIBUTING.md": {
@@ -212,6 +233,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/CONTRIBUTING.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/CONTRIBUTING.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/css\/main.css": {
@@ -220,6 +242,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/css\/normalize.css": {
@@ -228,6 +251,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/css\/normalize.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/crossdomain.md": {
@@ -239,6 +263,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/crossdomain.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/crossdomain.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/css.md": {
@@ -250,6 +275,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/css.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/css.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/extend.md": {
@@ -261,6 +287,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/extend.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/extend.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/faq.md": {
@@ -272,6 +299,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/faq.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/faq.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/html.md": {
@@ -283,6 +311,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/html.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/html.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/js.md": {
@@ -294,6 +323,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/js.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/js.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/misc.md": {
@@ -305,6 +335,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/misc.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/misc.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/TOC.md": {
@@ -316,6 +347,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/TOC.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/TOC.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/usage.md": {
@@ -327,6 +359,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/usage.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/doc\/usage.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/index.html": {
@@ -335,6 +368,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/js\/main.js": {
@@ -343,6 +377,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/js\/main.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/main.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -353,6 +388,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/js\/plugins.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/plugins.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -363,6 +399,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/js\/vendor\/jquery-1.10.2.min.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/jquery-1.10.2.min.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -373,6 +410,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/js\/vendor\/modernizr-2.6.2.min.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/modernizr-2.6.2.min.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -386,6 +424,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/LICENSE.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/LICENSE.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/bower_components\/html5-boilerplate\/README.md": {
@@ -397,6 +436,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/README.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/bower_components\/html5-boilerplate\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/tos.html": {
@@ -405,6 +445,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/tos.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/lib\/tos.md": {
@@ -416,6 +457,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/lib\/tos.md",
 		"outputAbbreviatedPath": "\/dev\/lib\/tos.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/partials\/_doc-foot.kit": {
@@ -424,6 +466,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/partials\/_doc-foot.kit",
 		"outputAbbreviatedPath": "\/build\/partials\/_doc-footer.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/partials\/_doc-head.kit": {
@@ -432,6 +475,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/partials\/_doc-head.kit",
 		"outputAbbreviatedPath": "\/build\/partials\/_doc-head.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/partials\/_footer.kit": {
@@ -440,6 +484,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/partials\/_footer.kit",
 		"outputAbbreviatedPath": "\/build\/partials\/_footer.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/partials\/_header.kit": {
@@ -448,6 +493,7 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/dev\/partials\/_header.kit",
 		"outputAbbreviatedPath": "\/build\/partials\/header.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/dev\/static\/js\/_plugins.js": {
@@ -456,6 +502,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/js\/_plugins.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/plugins.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -466,6 +513,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/js\/lib\/headroom.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/headroom.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -476,6 +524,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/js\/lib\/jQuery.headroom.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/jQuery.headroom.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -486,6 +535,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/js\/lib\/swipe.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/swipe.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -496,6 +546,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/js\/lib\/verge.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/verge.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -506,6 +557,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/js\/main.js",
 		"outputAbbreviatedPath": "\/build\/static\/js\/main.min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -519,6 +571,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/_form.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/_form.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -534,6 +587,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/_grid-config.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/_config.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -549,6 +603,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/form\/_base.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/_base.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -564,6 +619,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/form\/_nav.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/_nav.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -579,6 +635,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/form\/_style.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/_style.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -594,6 +651,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/form\/_tos.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/_tos.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -609,6 +667,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/lib\/_functions.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/_functions.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -624,6 +683,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/lib\/_normalize.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/normalize.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -639,6 +699,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/lib\/_typecsset.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/typecsset.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
@@ -654,6 +715,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/static\/sass\/main.scss",
 		"outputAbbreviatedPath": "\/build\/static\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
@@ -666,6 +728,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dev\/terms.kit",
 		"outputAbbreviatedPath": "\/build\/terms.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
 	},
@@ -737,12 +800,16 @@
 			"active": 0,
 			"flagValue": 3
 			},
-		"no-unnecessary_fat_arrows": {
+		"no_backticks": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"no_backticks": {
+		"no_debugger": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_empty_param_list": {
@@ -754,6 +821,10 @@
 			"flagValue": -1
 			},
 		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -778,6 +849,14 @@
 			"flagValue": -1
 			},
 		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -899,10 +978,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"gcl": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -1015,10 +1090,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"onevar": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"phantom": {
 			"active": 0,
 			"flagValue": -1
@@ -1055,10 +1126,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"smarttabs": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"strict": {
 			"active": 0,
 			"flagValue": -1
@@ -1071,10 +1138,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"trailing": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"typed": {
 			"active": 0,
 			"flagValue": -1
@@ -1085,10 +1148,6 @@
 			},
 		"unused": {
 			"active": 1,
-			"flagValue": -1
-			},
-		"white": {
-			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {

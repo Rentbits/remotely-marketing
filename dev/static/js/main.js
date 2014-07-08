@@ -60,7 +60,7 @@
     },
     showAside: function (current) {
       // body...
-      console.log(current);
+      // console.log(current);
 
       var currentScreen = current;
       var asideGroup = $('.showcase-aside ul');
