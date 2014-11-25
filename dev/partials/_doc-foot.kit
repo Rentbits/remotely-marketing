@@ -1,34 +1,47 @@
-<!-- _doc-footer.kit -->
+<!-- _doc-foot.kit -->
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
-  <script src="static/js/main.min.js"></script>
-  <script src="http://rb.test.rentbits.com/rb/site/assets/js/validate.jquery.js"></script>
-  <script>
-  $(document).ready(function() {
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/rb4/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/rb4/js/main.min.js"></script>
+<script src="http://rentbits.com/rb/site/assets/js/validate.jquery.js"></script>
+<script>
+    $(document).ready(function() {
+                 (function() {
+                     var _fbq = window._fbq || (window._fbq = []);
+                     if (!_fbq.loaded) {
+                        var fbds = document.createElement('script');
+                        fbds.async = true;
+                        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(fbds, s);
+                        _fbq.loaded = true;
+                   }
+                })();
     $('#learn-more-form').on('click', 'input.submit', function() {
       var $thisForm = $('form.learn-more-form');
       var isValid   = $thisForm.validate();
-
       if (isValid) {
-        $.post("contactRequest", $thisForm.serialize(), function(response) {
-          $thisForm[0].reset();
-
-          var target = $('.call-to-action');
-          $('.thank-you-message').addClass('show');
-          $('#to-be-hidden').css('opacity', '0');
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 300);
-
-        });
+                       window._fbq = window._fbq || [];
+                       window._fbq.push(['track', '6018166042544', {'value':'0.00','currency':'USD'}]);            
+      $.post("/rb4/tour/contactrequest", $thisForm.serialize(), function(response) {
+        // TODO...
+        $thisForm[0].reset();
+        var target = $('.call-to-action');
+        $('.thank-you-message').addClass('show');
+        $('#to-be-hidden').css('opacity', '0');
+        $('html,body').animate({
+        scrollTop: target.offset().top
+        }, 300);
+      });
       }
       return false;
     });
-
-  });
+    });
   </script>
+  <script src="/rb4/static/js/facebook.js"></script>
+  <noscript>
+    <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=763058303745924&amp;ev=NoScript" />
+  </noscript>
+  <script src="/rb4/static/js/perfectaudience.js"></script>
 </body>
 </html>

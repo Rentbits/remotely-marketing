@@ -37,7 +37,8 @@ body {
 }
 
 .container {
-  padding-top: $typecsset-magic-number * 4;
+  // padding-top: $typecsset-magic-number * 4;
+  padding-top: 0;
 }
 
 h1, %h1 {
